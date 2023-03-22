@@ -8,8 +8,7 @@
     <!------<title> Website Layout | AQMustp </title>------>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-
-
+    
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -26,7 +25,7 @@
     <div class="menu">
       <div class="logo">
         <img src="gallery/final logo.jpg" alt="logo" style="width:80px;height:70px;">
-        <a href="#"><b>AQMustp</b></a>
+        <a href="aqmlogo.jpeg">AQMustp</a>
       </div>
       <ul>
         <li><a href="home.html">Home</a></li>
@@ -36,13 +35,20 @@
       </ul>
     </div>
   </nav>
-  
   <div class="img"></div>
   <div class="center">
-    <h1 style="font-size:300%; text-align: left; color: whitesmoke;">USTP Air Quality Monitoring System</h1>
-    <img src="Index.png" class="floatRight" width="800px">
+    <div class="title"><h1>Feedback:</h1></div>
+    <div class="sub_title">&nbsp; </div>
+  
+    
+    <form action="/form/submit" method="POST">
+      <textarea class="comment">Type your comment here.</textarea>
+      <br>
+      <input type="submit" name="submit" value="Send">
+    </form>
+      
     </div>
+  </div>
 </body>
-
 <center><h3><footer>Thesis 2 | S.Y. 2022-2023 </footer></h3></center>
 </html>
